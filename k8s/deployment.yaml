@@ -29,7 +29,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: ALLOWED_ORIGINS
-          value: ""
+          value: "http://cristal-web.68.221.5.247.nip.io:30080"
         ports:
         - containerPort: 3000
         resources:
