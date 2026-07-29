@@ -1,7 +1,7 @@
 {
-  "name": "${{ values.name }}",
+  "name": "cristal-backend",
   "version": "1.0.0",
-  "description": "${{ values.description }}",
+  "description": "cristal-backend service",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

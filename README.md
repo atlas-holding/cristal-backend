@@ -1,6 +1,6 @@
-# ${{ values.name }}
+# cristal-backend
 
-${{ values.description }}
+cristal-backend service
 
 ## Stack
 - Langage : ${{ values.language }}
@@ -11,9 +11,9 @@ ${{ values.description }}
 ```bash
 # Cloner le repo
 git clone <repo-url>
-cd ${{ values.name }}
+cd cristal-backend
 
 # Lancer en local
-docker build -t ${{ values.name }} .
-docker run -p 8080:8080 ${{ values.name }}
+docker build -t cristal-backend .
+docker run -p 8080:8080 cristal-backend
 ```
