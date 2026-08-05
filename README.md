@@ -1,6 +1,6 @@
 # cristal-backend
 
-cristal-backend service
+cristal-backend service test
 
 ## Stack
 - Langage : ${{ values.language }}
