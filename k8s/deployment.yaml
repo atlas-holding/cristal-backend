@@ -25,7 +25,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: cristal-backend
-        image: harbor.harbor.svc.cluster.local/dxp/cristal-backend:34658b8
+        image: harbor.harbor.svc.cluster.local/dxp/cristal-backend:2709c3f
         imagePullPolicy: Always
         env:
         - name: ALLOWED_ORIGINS
